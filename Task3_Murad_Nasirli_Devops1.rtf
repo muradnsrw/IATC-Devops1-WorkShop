@@ -1,0 +1,619 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern Consolas;}{\f1\fmodern\fcharset0 Consolas;}{\f2\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red148\green146\blue12;\red170\green51\blue170;\red56\green136\blue159;}
+\viewkind4\uc1\pard\f0\fs20 muradnsrw@192.168.88.131's password:\cf1\highlight2 
+\par \cf0\highlight0     \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                 \cf3\f1\bullet  MobaXterm Personal Edition v22.0 \bullet\cf0\f0                  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?               \cf4 (SSH client, X server and network tools)\cf0                \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u8594? SSH session to \cf5 muradnsrw@192.168.88.131                  \cf0           \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  Direct SSH      :  \cf3\f0 v\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH compression :  \cf3\f0 v\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH-browser     :  \cf3\f0 v\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  X11-forwarding  :  \cf3\f0 v\cf0   (remote display is forwarded through SSH)  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u8594? For more info, ctrl+click on \cf6\ul help\cf0\ulnone  or visit our \cf6\ul website\cf0\ulnone .            \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-180-generic x86_64)\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Documentation:  https://help.ubuntu.com\cf1\highlight2 
+\par \cf0\highlight0  * Management:     https://landscape.canonical.com\cf1\highlight2 
+\par \cf0\highlight0  * Support:        https://ubuntu.com/advantage\cf1\highlight2 
+\par \cf0\highlight0 New release '20.04.4 LTS' available.\cf1\highlight2 
+\par \cf0\highlight0 Run 'do-release-upgrade' to upgrade to it.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Last login: Thu Jun  9 14:43:19 2022 from 192.168.88.1\cf1\highlight2 
+\par \cf0\highlight0 /usr/bin/xauth:  file /home/muradnsrw/.Xauthority does not exist\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ systemctl status firewalld\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  firewalld.service - firewalld - dynamic firewall daemon\cf1\highlight2 
+\par \cf0\highlight0    Loaded: loaded (/lib/systemd/system/firewalld.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0    Active: \cf3 active (running)\cf0  since Thu 2022-06-09 14:40:26 +04; 11min ago\cf1\highlight2 
+\par \cf0\highlight0      Docs: man:firewalld(1)\cf1\highlight2 
+\par \cf0\highlight0  Main PID: 552 (firewalld)\cf1\highlight2 
+\par \cf0\highlight0     Tasks: 2 (limit: 2305)\cf1\highlight2 
+\par \cf0\highlight0    CGroup: /system.slice/firewalld.service\cf1\highlight2 
+\par \cf0\highlight0            \u9492?\u9472?552 /usr/bin/python3 -Es /usr/sbin/firewalld --nofork --nopid\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -D FORWARD -i docker0 -o docker0 -j DROP' failed: iptables: Bad rule (does a ma\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C FORWARD -i docker0 -o docker0 -j ACCEPT' failed: iptables: Bad rul\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C FORWARD -i docker0 ! -o docker0 -j ACCEPT' failed: iptables: Bad r\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -j DOCKER' failed: iptables: No chain/target/ma\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -m conntrack --ctstate RELATED,ESTABLISHED -j A\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C DOCKER-ISOLATION-STAGE-1 -i docker0 ! -o docker0 -j DOCKER-ISOLATI\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C DOCKER-ISOLATION-STAGE-2 -o docker0 -j DROP' failed: iptables: Bad\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -n -L DOCKER-USER' failed: iptables: No chain/target/match by that na\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C DOCKER-USER -j RETURN' failed: iptables: Bad rule (does a matching\cf1\highlight2\b0 
+\par \cf0\highlight0 Jun 09 14:40:37 muradnsrw firewalld[552]: \b WARNING: COMMAND_FAILED: '/sbin/iptables -w2 -t filter -C FORWARD -j DOCKER-USER' failed: iptables: No chain/target/match by\cf1\highlight2\b0 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ ping 8.8.8.8\cf1\highlight2 
+\par \cf0\highlight0 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\cf1\highlight2 
+\par \cf0\highlight0 64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=49.7 ms\cf1\highlight2 
+\par \cf0\highlight0 64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=53.9 ms\cf1\highlight2 
+\par \cf0\highlight0 64 bytes from 8.8.8.8: icmp_seq=3 ttl=128 time=52.8 ms\cf1\highlight2 
+\par \cf0\highlight0 64 bytes from 8.8.8.8: icmp_seq=4 ttl=128 time=52.8 ms\cf1\highlight2 
+\par \cf0\highlight0 64 bytes from 8.8.8.8: icmp_seq=5 ttl=128 time=48.3 ms\cf1\highlight2 
+\par \cf0\highlight0 q64 bytes from 8.8.8.8: icmp_seq=6 ttl=128 time=48.6 ms                                                                                                              64 bytes from 8.8.8.8: icmp_seq=7 ttl=128 time=48.6 ms\cf1\highlight2 
+\par \cf0\highlight0 ^C\cf1\highlight2 
+\par \cf0\highlight0 --- 8.8.8.8 ping statistics ---\cf1\highlight2 
+\par \cf0\highlight0 7 packets transmitted, 7 received, 0% packet loss, time 6010ms\cf1\highlight2 
+\par \cf0\highlight0 rtt min/avg/max/mdev = 48.339/50.705/53.950/2.242 ms\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ sudo apt get update\cf1\highlight2 
+\par \cf0\highlight0 [sudo] password for muradnsrw:\cf1\highlight2 
+\par \cf0\highlight0 E: Invalid operation get\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64\cf1\highlight2 
+\par \cf0\highlight0   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\cf1\highlight2 
+\par \cf0\highlight0                                  Dload  Upload   Total   Spent    Left  Speed\cf1\highlight2 
+\par \cf0\highlight0   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\cf1\highlight2 
+\par \cf0\highlight0 100  157M  100  157M    0     0  2186k      0  0:01:13  0:01:13 --:--:-- 1627k\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ chmod +x ./kops\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ chmod +x ./kops\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ muradnsrw@muradnsrw:~$ chmod +x ./kops\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$: command not found\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ sudo mv ./kops /usr/local/bin/\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ muradnsrw@muradnsrw:~$ sudo mv ./kops /usr/local/bin/\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$: command not found\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s\cf1\highlight2 
+\par \cf0\highlight0 >\cf1\highlight2 
+\par \cf0\highlight0 > ^C\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl\cf1\highlight2 
+\par \cf0\highlight0   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\cf1\highlight2 
+\par \cf0\highlight0                                  Dload  Upload   Total   Spent    Left  Speed\cf1\highlight2 
+\par \cf0\highlight0 100 49.9M  100 49.9M    0     0  7663k      0  0:00:06  0:00:06 --:--:-- 8893k\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ chmod +x ./kubectl\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ sudo mv ./kubectl /usr/local/bin/kubectl\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ sudo apt install python-pip\cf1\highlight2 
+\par \cf0\highlight0 Reading package lists... Done\cf1\highlight2 
+\par \cf0\highlight0 Building dependency tree\cf1\highlight2 
+\par \cf0\highlight0 Reading state information... Done\cf1\highlight2 
+\par \cf0\highlight0 The following additional packages will be installed:\cf1\highlight2 
+\par \cf0\highlight0   binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-7 dirmngr dpkg-dev fakeroot g++ g++-7 gcc gcc-7 gcc-7-base gnupg gnupg-l10n gnupg-utils\cf1\highlight2 
+\par \cf0\highlight0   gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan4 libassuan0 libatomic1\cf1\highlight2 
+\par \cf0\highlight0   libbinutils libc-dev-bin libc6-dev libcc1-0 libcilkrts5 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libgcc-7-dev libgomp1 libisl19 libitm1\cf1\highlight2 
+\par \cf0\highlight0   libksba8 liblsan0 libmpc3 libmpfr6 libmpx2 libnpth0 libpython-all-dev libpython-dev libpython-stdlib libpython2.7 libpython2.7-dev libpython2.7-minimal\cf1\highlight2 
+\par \cf0\highlight0   libpython2.7-stdlib libquadmath0 libstdc++-7-dev libtsan0 libubsan0 linux-libc-dev make manpages-dev pinentry-curses python python-all python-all-dev\cf1\highlight2 
+\par \cf0\highlight0   python-asn1crypto python-cffi-backend python-crypto python-cryptography python-dbus python-dev python-enum34 python-gi python-idna python-ipaddress python-keyring\cf1\highlight2 
+\par \cf0\highlight0   python-keyrings.alt python-minimal python-pip-whl python-pkg-resources python-secretstorage python-setuptools python-six python-wheel python-xdg python2.7\cf1\highlight2 
+\par \cf0\highlight0   python2.7-dev python2.7-minimal\cf1\highlight2 
+\par \cf0\highlight0 Suggested packages:\cf1\highlight2 
+\par \cf0\highlight0   binutils-doc cpp-doc gcc-7-locales dbus-user-session pinentry-gnome3 tor debian-keyring g++-multilib g++-7-multilib gcc-7-doc libstdc++6-7-dbg gcc-multilib\cf1\highlight2 
+\par \cf0\highlight0   autoconf automake libtool flex bison gdb gcc-doc gcc-7-multilib libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan4-dbg liblsan0-dbg libtsan0-dbg\cf1\highlight2 
+\par \cf0\highlight0   libubsan0-dbg libcilkrts5-dbg libmpx2-dbg libquadmath0-dbg parcimonie xloadimage scdaemon glibc-doc bzr libstdc++-7-doc make-doc pinentry-doc python-doc python-tk\cf1\highlight2 
+\par \cf0\highlight0   python-crypto-doc python-cryptography-doc python-cryptography-vectors python-dbus-dbg python-dbus-doc python-enum34-doc python-gi-cairo gnome-keyring\cf1\highlight2 
+\par \cf0\highlight0   libkf5wallet-bin gir1.2-gnomekeyring-1.0 python-fs python-gdata python-keyczar python-secretstorage-doc python-setuptools-doc python2.7-doc binfmt-support\cf1\highlight2 
+\par \cf0\highlight0 The following NEW packages will be installed:\cf1\highlight2 
+\par \cf0\highlight0   binutils binutils-common binutils-x86-64-linux-gnu build-essential cpp cpp-7 dirmngr dpkg-dev fakeroot g++ g++-7 gcc gcc-7 gcc-7-base gnupg gnupg-l10n gnupg-utils\cf1\highlight2 
+\par \cf0\highlight0   gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan4 libassuan0 libatomic1\cf1\highlight2 
+\par \cf0\highlight0   libbinutils libc-dev-bin libc6-dev libcc1-0 libcilkrts5 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libgcc-7-dev libgomp1 libisl19 libitm1\cf1\highlight2 
+\par \cf0\highlight0   libksba8 liblsan0 libmpc3 libmpfr6 libmpx2 libnpth0 libpython-all-dev libpython-dev libpython-stdlib libpython2.7 libpython2.7-dev libpython2.7-minimal\cf1\highlight2 
+\par \cf0\highlight0   libpython2.7-stdlib libquadmath0 libstdc++-7-dev libtsan0 libubsan0 linux-libc-dev make manpages-dev pinentry-curses python python-all python-all-dev\cf1\highlight2 
+\par \cf0\highlight0   python-asn1crypto python-cffi-backend python-crypto python-cryptography python-dbus python-dev python-enum34 python-gi python-idna python-ipaddress python-keyring\cf1\highlight2 
+\par \cf0\highlight0   python-keyrings.alt python-minimal python-pip python-pip-whl python-pkg-resources python-secretstorage python-setuptools python-six python-wheel python-xdg\cf1\highlight2 
+\par \cf0\highlight0   python2.7 python2.7-dev python2.7-minimal\cf1\highlight2 
+\par \cf0\highlight0 0 upgraded, 90 newly installed, 0 to remove and 0 not upgraded.\cf1\highlight2 
+\par \cf0\highlight0 Need to get 82.5 MB of archives.\cf1\highlight2 
+\par \cf0\highlight0 After this operation, 247 MB of additional disk space will be used.\cf1\highlight2 
+\par \cf0\highlight0 Do you want to continue? [Y/n] y\cf1\highlight2 
+\par \cf0\highlight0 Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-minimal amd64 2.7.17-1~18.04ubuntu1.7 [335 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7-minimal amd64 2.7.17-1~18.04ubuntu1.7 [1,288 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:3 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-minimal amd64 2.7.15~rc1-1 [28.1 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-stdlib amd64 2.7.17-1~18.04ubuntu1.7 [1,917 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7 amd64 2.7.17-1~18.04ubuntu1.7 [248 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:6 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libpython-stdlib amd64 2.7.15~rc1-1 [7,620 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:7 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python amd64 2.7.15~rc1-1 [140 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils-common amd64 2.30-21ubuntu1~18.04.7 [197 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:9 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libbinutils amd64 2.30-21ubuntu1~18.04.7 [489 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:10 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.30-21ubuntu1~18.04.7 [1,839 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:11 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 binutils amd64 2.30-21ubuntu1~18.04.7 [3,388 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:12 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libc-dev-bin amd64 2.27-3ubuntu1.6 [71.9 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:13 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-libc-dev amd64 4.15.0-184.194 [980 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:14 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libc6-dev amd64 2.27-3ubuntu1.6 [2,587 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:15 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7-base amd64 7.5.0-3ubuntu1~18.04 [18.3 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:16 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libisl19 amd64 0.19-1 [551 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:17 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libmpfr6 amd64 4.0.1-1 [243 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:18 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:19 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 cpp-7 amd64 7.5.0-3ubuntu1~18.04 [8,591 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:20 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 cpp amd64 4:7.4.0-1ubuntu2.3 [27.7 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:21 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcc1-0 amd64 8.4.0-1ubuntu1~18.04 [39.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:22 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgomp1 amd64 8.4.0-1ubuntu1~18.04 [76.5 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:23 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libitm1 amd64 8.4.0-1ubuntu1~18.04 [27.9 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:24 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libatomic1 amd64 8.4.0-1ubuntu1~18.04 [9,192 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:25 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libasan4 amd64 7.5.0-3ubuntu1~18.04 [358 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:26 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblsan0 amd64 8.4.0-1ubuntu1~18.04 [133 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:27 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libtsan0 amd64 8.4.0-1ubuntu1~18.04 [288 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:28 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libubsan0 amd64 7.5.0-3ubuntu1~18.04 [126 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:29 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcilkrts5 amd64 7.5.0-3ubuntu1~18.04 [42.5 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:30 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libmpx2 amd64 8.4.0-1ubuntu1~18.04 [11.6 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:31 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libquadmath0 amd64 8.4.0-1ubuntu1~18.04 [134 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:32 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcc-7-dev amd64 7.5.0-3ubuntu1~18.04 [2,378 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:33 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7 amd64 7.5.0-3ubuntu1~18.04 [9,381 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:34 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc amd64 4:7.4.0-1ubuntu2.3 [5,184 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:35 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libstdc++-7-dev amd64 7.5.0-3ubuntu1~18.04 [1,471 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:36 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 g++-7 amd64 7.5.0-3ubuntu1~18.04 [9,697 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:37 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 g++ amd64 4:7.4.0-1ubuntu2.3 [1,568 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:38 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 make amd64 4.1-9.1ubuntu1 [154 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:39 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libdpkg-perl all 1.19.0.5ubuntu2.4 [212 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:40 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 dpkg-dev all 1.19.0.5ubuntu2.4 [607 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:41 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 build-essential amd64 12.4ubuntu1 [4,758 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:42 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libassuan0 amd64 2.5.1-2 [35.0 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:43 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpgconf amd64 2.2.4-1ubuntu1.5 [123 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:44 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libksba8 amd64 1.3.5-2 [92.6 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:45 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libnpth0 amd64 1.5-3 [7,668 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:46 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 dirmngr amd64 2.2.4-1ubuntu1.5 [317 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:47 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libfakeroot amd64 1.22-2ubuntu1 [25.9 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:48 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 fakeroot amd64 1.22-2ubuntu1 [62.3 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:49 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg-l10n all 2.2.4-1ubuntu1.5 [50.0 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:50 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg-utils amd64 2.2.4-1ubuntu1.5 [128 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:51 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg amd64 2.2.4-1ubuntu1.5 [468 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:52 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 pinentry-curses amd64 1.1.0-1 [35.8 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:53 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-agent amd64 2.2.4-1ubuntu1.5 [227 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:54 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-wks-client amd64 2.2.4-1ubuntu1.5 [91.8 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:55 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpg-wks-server amd64 2.2.4-1ubuntu1.5 [85.0 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:56 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gpgsm amd64 2.2.4-1ubuntu1.5 [215 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:57 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 gnupg amd64 2.2.4-1ubuntu1.5 [249 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:58 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-diff-perl all 1.19.03-1 [47.6 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:59 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-diff-xs-perl amd64 0.04-5 [11.1 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:60 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:61 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libexpat1-dev amd64 2.2.5-3ubuntu0.7 [124 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:62 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libfile-fcntllock-perl amd64 0.22-3build2 [33.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:63 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7 amd64 2.7.17-1~18.04ubuntu1.7 [1,054 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:64 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython2.7-dev amd64 2.7.17-1~18.04ubuntu1.7 [28.3 MB]\cf1\highlight2 
+\par \cf0\highlight0 Get:65 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libpython-dev amd64 2.7.15~rc1-1 [7,684 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:66 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libpython-all-dev amd64 2.7.15~rc1-1 [1,092 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:67 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 manpages-dev all 4.15-1 [2,217 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:68 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-all amd64 2.7.15~rc1-1 [1,076 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:69 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python2.7-dev amd64 2.7.17-1~18.04ubuntu1.7 [285 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:70 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-dev amd64 2.7.15~rc1-1 [1,256 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:71 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-all-dev amd64 2.7.15~rc1-1 [1,100 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:72 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-asn1crypto all 0.24.0-1 [72.7 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:73 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-cffi-backend amd64 1.11.5-1 [63.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:74 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-crypto amd64 2.6.1-8ubuntu2 [244 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:75 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-enum34 all 1.1.6-2 [34.8 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:76 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-idna all 2.6-1 [32.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:77 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-ipaddress all 1.0.17-1 [18.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:78 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-six all 1.11.0-2 [11.3 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:79 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python-cryptography amd64 2.1.4-1ubuntu1.4 [276 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:80 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-dbus amd64 1.2.6-1 [90.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:81 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python-gi amd64 3.26.1-2ubuntu1 [197 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:82 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-secretstorage all 2.3.1-2 [11.8 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:83 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-keyring all 10.6.0-1 [30.6 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:84 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-keyrings.alt all 3.0-1 [16.7 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:85 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-pip-whl all 9.0.1-2.3~ubuntu1.18.04.5 [1,653 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:86 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-pip all 9.0.1-2.3~ubuntu1.18.04.5 [151 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:87 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-pkg-resources all 39.0.1-2 [128 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:88 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-setuptools all 39.0.1-2 [329 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:89 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python-wheel all 0.30.0-0.2 [36.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:90 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-xdg all 0.25-4ubuntu1.1 [31.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Fetched 82.5 MB in 4min 4s (339 kB/s)\cf1\highlight2 
+\par \cf0\highlight0 Extracting templates from packages: 100%\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython2.7-minimal:amd64.\cf1\highlight2 
+\par \cf0\highlight0 (Reading database ... 98629 files and directories currently installed.)\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../0-libpython2.7-minimal_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python2.7-minimal.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../1-python2.7-minimal_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python2.7-minimal (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-minimal.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../2-python-minimal_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-minimal (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython2.7-stdlib:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../3-libpython2.7-stdlib_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython2.7-stdlib:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python2.7.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../4-python2.7_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python2.7 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython-stdlib:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../5-libpython-stdlib_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython-stdlib:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python2.7-minimal (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Linking and byte-compiling packages for runtime python2.7...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-minimal (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python.\cf1\highlight2 
+\par \cf0\highlight0 (Reading database ... 99378 files and directories currently installed.)\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../00-python_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package binutils-common:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../01-binutils-common_2.30-21ubuntu1~18.04.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking binutils-common:amd64 (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libbinutils:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../02-libbinutils_2.30-21ubuntu1~18.04.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libbinutils:amd64 (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package binutils-x86-64-linux-gnu.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../03-binutils-x86-64-linux-gnu_2.30-21ubuntu1~18.04.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package binutils.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../04-binutils_2.30-21ubuntu1~18.04.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking binutils (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libc-dev-bin.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../05-libc-dev-bin_2.27-3ubuntu1.6_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libc-dev-bin (2.27-3ubuntu1.6) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package linux-libc-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../06-linux-libc-dev_4.15.0-184.194_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking linux-libc-dev:amd64 (4.15.0-184.194) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libc6-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../07-libc6-dev_2.27-3ubuntu1.6_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libc6-dev:amd64 (2.27-3ubuntu1.6) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gcc-7-base:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../08-gcc-7-base_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gcc-7-base:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libisl19:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../09-libisl19_0.19-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libisl19:amd64 (0.19-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libmpfr6:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../10-libmpfr6_4.0.1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libmpfr6:amd64 (4.0.1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libmpc3:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../11-libmpc3_1.1.0-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libmpc3:amd64 (1.1.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package cpp-7.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../12-cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking cpp-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package cpp.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../13-cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking cpp (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libcc1-0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../14-libcc1-0_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libcc1-0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libgomp1:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../15-libgomp1_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libgomp1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libitm1:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../16-libitm1_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libitm1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libatomic1:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../17-libatomic1_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libatomic1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libasan4:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../18-libasan4_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libasan4:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package liblsan0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../19-liblsan0_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking liblsan0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libtsan0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../20-libtsan0_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libtsan0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libubsan0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../21-libubsan0_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libubsan0:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libcilkrts5:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../22-libcilkrts5_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libcilkrts5:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libmpx2:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../23-libmpx2_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libmpx2:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libquadmath0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../24-libquadmath0_8.4.0-1ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libquadmath0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libgcc-7-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../25-libgcc-7-dev_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libgcc-7-dev:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gcc-7.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../26-gcc-7_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gcc-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gcc.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../27-gcc_4%3a7.4.0-1ubuntu2.3_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gcc (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libstdc++-7-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../28-libstdc++-7-dev_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libstdc++-7-dev:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package g++-7.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../29-g++-7_7.5.0-3ubuntu1~18.04_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking g++-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package g++.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../30-g++_4%3a7.4.0-1ubuntu2.3_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking g++ (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package make.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../31-make_4.1-9.1ubuntu1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking make (4.1-9.1ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libdpkg-perl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../32-libdpkg-perl_1.19.0.5ubuntu2.4_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libdpkg-perl (1.19.0.5ubuntu2.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package dpkg-dev.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../33-dpkg-dev_1.19.0.5ubuntu2.4_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking dpkg-dev (1.19.0.5ubuntu2.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package build-essential.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../34-build-essential_12.4ubuntu1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking build-essential (12.4ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libassuan0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../35-libassuan0_2.5.1-2_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libassuan0:amd64 (2.5.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpgconf.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../36-gpgconf_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpgconf (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libksba8:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../37-libksba8_1.3.5-2_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libksba8:amd64 (1.3.5-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libnpth0:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../38-libnpth0_1.5-3_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libnpth0:amd64 (1.5-3) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package dirmngr.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../39-dirmngr_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking dirmngr (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libfakeroot:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../40-libfakeroot_1.22-2ubuntu1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libfakeroot:amd64 (1.22-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package fakeroot.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../41-fakeroot_1.22-2ubuntu1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking fakeroot (1.22-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gnupg-l10n.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../42-gnupg-l10n_2.2.4-1ubuntu1.5_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gnupg-l10n (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gnupg-utils.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../43-gnupg-utils_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gnupg-utils (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpg.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../44-gpg_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpg (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package pinentry-curses.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../45-pinentry-curses_1.1.0-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking pinentry-curses (1.1.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpg-agent.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../46-gpg-agent_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpg-agent (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpg-wks-client.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../47-gpg-wks-client_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpg-wks-client (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpg-wks-server.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../48-gpg-wks-server_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpg-wks-server (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gpgsm.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../49-gpgsm_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gpgsm (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package gnupg.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../50-gnupg_2.2.4-1ubuntu1.5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking gnupg (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libalgorithm-diff-perl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../51-libalgorithm-diff-perl_1.19.03-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libalgorithm-diff-perl (1.19.03-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libalgorithm-diff-xs-perl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../52-libalgorithm-diff-xs-perl_0.04-5_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libalgorithm-diff-xs-perl (0.04-5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libalgorithm-merge-perl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../53-libalgorithm-merge-perl_0.08-3_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libalgorithm-merge-perl (0.08-3) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libexpat1-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../54-libexpat1-dev_2.2.5-3ubuntu0.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libexpat1-dev:amd64 (2.2.5-3ubuntu0.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libfile-fcntllock-perl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../55-libfile-fcntllock-perl_0.22-3build2_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libfile-fcntllock-perl (0.22-3build2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython2.7:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../56-libpython2.7_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython2.7:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython2.7-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../57-libpython2.7-dev_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../58-libpython-dev_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython-dev:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package libpython-all-dev:amd64.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../59-libpython-all-dev_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking libpython-all-dev:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package manpages-dev.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../60-manpages-dev_4.15-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking manpages-dev (4.15-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-all.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../61-python-all_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-all (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python2.7-dev.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../62-python2.7-dev_2.7.17-1~18.04ubuntu1.7_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python2.7-dev (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-dev.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../63-python-dev_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-dev (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-all-dev.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../64-python-all-dev_2.7.15~rc1-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-all-dev (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-asn1crypto.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../65-python-asn1crypto_0.24.0-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-asn1crypto (0.24.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-cffi-backend.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../66-python-cffi-backend_1.11.5-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-cffi-backend (1.11.5-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-crypto.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../67-python-crypto_2.6.1-8ubuntu2_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-crypto (2.6.1-8ubuntu2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-enum34.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../68-python-enum34_1.1.6-2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-enum34 (1.1.6-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-idna.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../69-python-idna_2.6-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-idna (2.6-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-ipaddress.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../70-python-ipaddress_1.0.17-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-ipaddress (1.0.17-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-six.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../71-python-six_1.11.0-2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-six (1.11.0-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-cryptography.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../72-python-cryptography_2.1.4-1ubuntu1.4_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-cryptography (2.1.4-1ubuntu1.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-dbus.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../73-python-dbus_1.2.6-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-dbus (1.2.6-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-gi.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../74-python-gi_3.26.1-2ubuntu1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-gi (3.26.1-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-secretstorage.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../75-python-secretstorage_2.3.1-2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-secretstorage (2.3.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-keyring.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../76-python-keyring_10.6.0-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-keyring (10.6.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-keyrings.alt.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../77-python-keyrings.alt_3.0-1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-keyrings.alt (3.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-pip-whl.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../78-python-pip-whl_9.0.1-2.3~ubuntu1.18.04.5_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-pip-whl (9.0.1-2.3~ubuntu1.18.04.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-pip.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../79-python-pip_9.0.1-2.3~ubuntu1.18.04.5_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-pip (9.0.1-2.3~ubuntu1.18.04.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-pkg-resources.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../80-python-pkg-resources_39.0.1-2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-pkg-resources (39.0.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-setuptools.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../81-python-setuptools_39.0.1-2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-setuptools (39.0.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-wheel.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../82-python-wheel_0.30.0-0.2_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-wheel (0.30.0-0.2) ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package python-xdg.\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../83-python-xdg_0.25-4ubuntu1.1_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking python-xdg (0.25-4ubuntu1.1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libquadmath0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libnpth0:amd64 (1.5-3) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libgomp1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libatomic1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-pip-whl (9.0.1-2.3~ubuntu1.18.04.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libcc1-0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up make (4.1-9.1ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libtsan0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up linux-libc-dev:amd64 (4.15.0-184.194) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libmpfr6:amd64 (4.0.1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libdpkg-perl (1.19.0.5ubuntu2.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libksba8:amd64 (1.3.5-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gnupg-l10n (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up liblsan0:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gcc-7-base:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up binutils-common:amd64 (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libfile-fcntllock-perl (0.22-3build2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libmpx2:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libfakeroot:amd64 (1.22-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libalgorithm-diff-perl (1.19.03-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libmpc3:amd64 (1.1.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libc-dev-bin (2.27-3ubuntu1.6) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up manpages-dev (4.15-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libc6-dev:amd64 (2.27-3ubuntu1.6) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libassuan0:amd64 (2.5.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libitm1:amd64 (8.4.0-1ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython2.7-stdlib:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libisl19:amd64 (0.19-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libasan4:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libbinutils:amd64 (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libcilkrts5:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libubsan0:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpgconf (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python2.7 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up fakeroot (1.22-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode\cf1\highlight2 
+\par \cf0\highlight0 Setting up libgcc-7-dev:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up cpp-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libstdc++-7-dev:amd64 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython-stdlib:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libalgorithm-merge-perl (0.08-3) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libalgorithm-diff-xs-perl (0.04-5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpgsm (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython2.7:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gnupg-utils (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libexpat1-dev:amd64 (2.2.5-3ubuntu0.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up pinentry-curses (1.1.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up dirmngr (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python2.7-dev (2.7.17-1~18.04ubuntu1.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpg (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-xdg (0.25-4ubuntu1.1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up binutils-x86-64-linux-gnu (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-idna (2.6-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up cpp (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython-dev:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-asn1crypto (0.24.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-crypto (2.6.1-8ubuntu2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-dev (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-wheel (0.30.0-0.2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up libpython-all-dev:amd64 (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpg-agent (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpg-wks-server (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-pkg-resources (39.0.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gpg-wks-client (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-cffi-backend (1.11.5-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-gi (3.26.1-2ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-six (1.11.0-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-enum34 (1.1.6-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up binutils (2.30-21ubuntu1~18.04.7) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-dbus (1.2.6-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-ipaddress (1.0.17-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-pip (9.0.1-2.3~ubuntu1.18.04.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-all (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-setuptools (39.0.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gcc-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up g++-7 (7.5.0-3ubuntu1~18.04) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gnupg (2.2.4-1ubuntu1.5) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up gcc (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-keyrings.alt (3.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up dpkg-dev (1.19.0.5ubuntu2.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-all-dev (2.7.15~rc1-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-cryptography (2.1.4-1ubuntu1.4) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up g++ (4:7.4.0-1ubuntu2.3) ...\cf1\highlight2 
+\par \cf0\highlight0 update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-secretstorage (2.3.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up python-keyring (10.6.0-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up build-essential (12.4ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Processing triggers for libc-bin (2.27-3ubuntu1.6) ...\cf1\highlight2 
+\par \cf0\highlight0 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...\cf1\highlight2 
+\par \cf0\highlight0 Processing triggers for mime-support (3.60ubuntu1) ...\cf1\highlight2 
+\par \cf0\highlight0 Processing triggers for install-info (6.5.0.dfsg.1-2) ...\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$ pip install awscli\cf1\highlight2 
+\par \cf0\highlight0 Collecting awscli\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/aa/24/e098cf5ce28a764bca174e88f4ccb70754e9f049c9bf986e582aedcb7420/awscli-1.19.112-py2.py3-none-any.whl (3.6MB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 3.6MB 305kB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting docutils<0.16,>=0.10 (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/3a/dc/bf2b15d1fa15a6f7a9e77a61b74ecbbae7258558fcda8ffc9a6638a6b327/docutils-0.15.2-py2-none-any.whl (548kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 552kB 1.8MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting s3transfer<0.5.0,>=0.4.0 (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/63/d0/693477c688348654ddc21dcdce0817653a294aa43f41771084c25e7ff9c7/s3transfer-0.4.2-py2.py3-none-any.whl (79kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 81kB 3.4MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting botocore==1.20.112 (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/c7/ea/11c3beca131920f552602b98d7ba9fc5b46bee6a59cbd48a95a85cbb8f41/botocore-1.20.112-py2.py3-none-any.whl (7.7MB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 7.7MB 123kB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting colorama<0.4.4,>=0.2.5 (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl\cf1\highlight2 
+\par \cf0\highlight0 Collecting rsa<=4.5.0,>=3.1.2; python_version == "2.7" (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/26/f8/8127fdda0294f044121d20aac7785feb810e159098447967a6103dedfb96/rsa-4.5-py2.py3-none-any.whl\cf1\highlight2 
+\par \cf0\highlight0 Collecting PyYAML<5.5,>=3.10 (from awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/ba/d4/3cf562876e0cda0405e65d351b835077ab13990e5b92912ef2bf1a2280e0/PyYAML-5.4.1-cp27-cp27mu-manylinux1_x86_64.whl (574kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 583kB 1.5MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting futures<4.0.0,>=2.2.0; python_version == "2.7" (from s3transfer<0.5.0,>=0.4.0->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/d8/a6/f46ae3f1da0cd4361c344888f59ec2f5785e69c872e175a748ef6071cdb5/futures-3.3.0-py2-none-any.whl\cf1\highlight2 
+\par \cf0\highlight0 Collecting jmespath<1.0.0,>=0.7.1 (from botocore==1.20.112->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/07/cb/5f001272b6faeb23c1c9e0acc04d48eaaf5c862c17709d20e3469c6e0139/jmespath-0.10.0-py2.py3-none-any.whl\cf1\highlight2 
+\par \cf0\highlight0 Collecting python-dateutil<3.0.0,>=2.1 (from botocore==1.20.112->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 256kB 3.0MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting urllib3<1.27,>=1.25.4 (from botocore==1.20.112->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/ec/03/062e6444ce4baf1eac17a6a0ebfe36bb1ad05e1df0e20b110de59c278498/urllib3-1.26.9-py2.py3-none-any.whl (138kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 143kB 3.5MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting pyasn1>=0.1.3 (from rsa<=4.5.0,>=3.1.2; python_version == "2.7"->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77kB)\cf1\highlight2 
+\par \cf0\highlight0     100% |\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?\u9608?| 81kB 4.0MB/s\cf1\highlight2 
+\par \cf0\highlight0 Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore==1.20.112->awscli)\cf1\highlight2 
+\par \cf0\highlight0   Downloading https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl\cf1\highlight2 
+\par \cf0\highlight0 Installing collected packages: docutils, futures, jmespath, six, python-dateutil, urllib3, botocore, s3transfer, colorama, pyasn1, rsa, PyYAML, awscli\cf1\highlight2 
+\par \cf0\highlight0 Successfully installed PyYAML-5.4.1 awscli-1.19.112 botocore-1.20.112 colorama-0.4.3 docutils-0.15.2 futures-3.3.0 jmespath-0.10.0 pyasn1-0.4.8 python-dateutil-2.8.2 rsa-4.5 s3transfer-0.4.2 six-1.16.0 urllib3-1.26.9\cf1\highlight2 
+\par \cf0\highlight0 muradnsrw@muradnsrw:~$\cf1\highlight2 
+\par \pard\cf0\highlight0\f2 
+\par }
+ 
